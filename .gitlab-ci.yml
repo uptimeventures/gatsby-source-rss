@@ -7,11 +7,10 @@ before_script:
   - yarn install
 
 stages:
-  - lint
   - test
 
 lint:
-  stage: lint
+  stage: test 
   script:
     - yarn lint
 
