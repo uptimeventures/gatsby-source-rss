@@ -1,0 +1,39 @@
+{
+  "name": "@uptimeventures/gatsby-source-rss",
+  "version": "0.1.0",
+  "description": "Import RSS feed data into Gatsby.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/uptimeventures/gatsby-source-rss.git"
+  },
+  "keywords": [
+    "Gatsby",
+    "feed",
+    "rss",
+    "source"
+  ],
+  "author": "Nicholas Young <nyoung@uptime.ventures>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-standard": "3.0.1",
+    "jest": "^23.1.0"
+  }
+}
