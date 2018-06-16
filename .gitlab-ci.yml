@@ -3,6 +3,9 @@ image: node:latest
 variables:
   CI: 'true'
 
+before_script:
+  - yarn install
+
 stages:
   - lint
   - test
