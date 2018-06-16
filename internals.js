@@ -81,6 +81,5 @@ const createFeed = (feed, createNode) => {
 
 module.exports = {
   load,
-  select,
   createFeed,
 }
