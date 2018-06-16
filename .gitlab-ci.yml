@@ -4,7 +4,13 @@ variables:
   CI: 'true'
 
 stages:
+  - lint
   - test
+
+lint:
+  stage: lint
+  script:
+    - yarn lint
 
 test:
   stage: test
