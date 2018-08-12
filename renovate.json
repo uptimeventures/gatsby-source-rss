@@ -1,1 +1,13 @@
-{}
+{
+  "extends": [":app"],
+  "timezone": "America/Denver",
+  "labels": [
+    "bot",
+    "deps"
+  ],
+  "rebaseStalePrs": true,
+  "automerge": true,
+  "assignees": [
+    "nicholasyoung"
+  ]
+}
