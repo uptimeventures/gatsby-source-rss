@@ -20,14 +20,14 @@
   "author": "Nicholas Young <nyoung@uptime.ventures>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "lodash.get": "^4.4.2",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2",
-    "xml2js": "^0.4.19"
+    "lodash.get": "4.4.2",
+    "request": "2.87.0",
+    "request-promise": "4.2.2",
+    "xml2js": "0.4.19"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "eslint": "^5.1.0",
+    "babel-eslint": "8.2.3",
+    "eslint": "5.1.0",
     "eslint-config-standard": "11.0.0",
     "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-import": "2.13.0",
@@ -35,7 +35,7 @@
     "eslint-plugin-promise": "3.8.0",
     "eslint-plugin-react": "7.10.0",
     "eslint-plugin-standard": "3.1.0",
-    "jest": "^23.1.0"
+    "jest": "23.1.0"
   },
   "publishConfig": {
     "access": "public"
