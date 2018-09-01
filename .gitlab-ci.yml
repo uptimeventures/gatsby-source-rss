@@ -4,7 +4,8 @@ variables:
   CI: 'true'
 
 before_script:
-  - yarn install
+  - npx npm-merge-driver install --global
+  - npm ci
 
 stages:
   - test
@@ -12,9 +13,9 @@ stages:
 lint:
   stage: test 
   script:
-    - yarn lint
+    - npm run lint
 
 test:
   stage: test
   script:
-    - yarn test
+    - npm test
