@@ -5,12 +5,10 @@
     "node": true
   },
   "extends": [
-    "standard",
-    "plugin:react/recommended"
+    "standard"
   ],
   "plugins": [
-    "flowtype",
-    "react"
+    "flowtype"
   ],
   "rules": {
     "space-before-function-paren": 0,
