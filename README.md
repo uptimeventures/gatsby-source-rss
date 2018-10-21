@@ -10,9 +10,6 @@ Import an existing RSS feed into your Gatsby site.
 
 ## Installation 
 
-**NOTE:** This plugin is of alpha quality. While the configuration
-API is final, its underlying implementation is subject to change... significantly.
-
 `npm install @uptimeventures/gatsby-source-rss`
 
 ```javascript
