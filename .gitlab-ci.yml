@@ -28,4 +28,4 @@ renovate:
   image:
     name: renovate/renovate:latest
   script:
-    - renovate --token $GITLAB_AUTH_TOKEN --platform gitlab --autodiscover
+    - renovate --platform gitlab --autodiscover
