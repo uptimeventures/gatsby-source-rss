@@ -9,6 +9,7 @@ before_script:
 
 stages:
   - test
+  - renovate
 
 lint:
   stage: test 
@@ -19,3 +20,12 @@ test:
   stage: test
   script:
     - npm test
+
+renovate:
+  stage: renovate
+  only:
+    - master
+  image:
+    name: renovate/renovate:latest
+  script:
+    - renovate --token $GITLAB_AUTH_TOKEN --platform gitlab --autodiscover
