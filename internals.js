@@ -49,6 +49,7 @@ const createChildren = (nodes, parent, createNode) => {
       title: select(n, 'title'),
       description: select(n, 'description'),
       html: select(n, 'content:encoded'),
+      date: select(n, 'pubDate'),
       link,
       parent,
       children: [],
