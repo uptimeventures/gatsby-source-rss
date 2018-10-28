@@ -1,7 +1,7 @@
 # gatsby-source-rss
 
 [![CI Status
-Badge](https://gitlab.com/uptimeventures/gatsby-source-rss/badges/badges/pipeline.svg)](https://gitlab.com/uptimeventures/gatsby-source-rss)
+Badge](https://gitlab.com/uptimeventures/gatsby-source-rss/badges/master/build.svg)](https://gitlab.com/uptimeventures/gatsby-source-rss)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Made by Uptime Ventures
 badge](https://img.shields.io/badge/made_by-Uptime_Ventures-fcb040.svg)](https://www.uptime.ventures)
