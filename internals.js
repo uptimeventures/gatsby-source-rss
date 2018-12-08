@@ -30,6 +30,8 @@ const select = (i, key) => {
   return value
 }
 
+const toDate = str => str ? new Date(str) : null
+
 const digest = i =>
   crypto
     .createHash('md5')
@@ -49,7 +51,7 @@ const createChildren = (nodes, parent, createNode) => {
       title: select(n, 'title'),
       description: select(n, 'description'),
       html: select(n, 'content:encoded'),
-      date: select(n, 'pubDate'),
+      date: toDate(select(n, 'pubDate')),
       link,
       parent,
       children: [],

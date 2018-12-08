@@ -37,7 +37,7 @@ it('should return parent and children nodes', () => {
     expect.objectContaining({
       id: 'https://www.nicholaswyoung.com/rss.xml',
       description: 'Testing array parsing',
-      date: 'Fri, 28 Sep 2018 07:00:00 GMT',
+      date: new Date('Fri, 28 Sep 2018 07:00:00 GMT'),
       link: 'https://www.nicholaswyoung.com/rss.xml',
       html: '<h1>Testing encoded content</h1>',
       children: [],
