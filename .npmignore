@@ -1,2 +1,6 @@
 .eslint*
 node_modules/
+__tests__/
+.gitlab-ci.yml
+.gitignore
+renovate.json
