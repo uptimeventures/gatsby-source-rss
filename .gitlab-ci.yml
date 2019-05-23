@@ -20,12 +20,3 @@ test:
   stage: test
   script:
     - npm test
-
-renovate:
-  stage: renovate
-  only:
-    - master
-  image:
-    name: renovate/renovate:latest
-  script:
-    - renovate --platform gitlab --autodiscover
